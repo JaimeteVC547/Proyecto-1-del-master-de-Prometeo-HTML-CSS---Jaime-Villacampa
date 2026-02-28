@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Metadatos básicos -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio personal de Jaime Villacampa - Desarrollador Web">
+    <meta name="keywords" content="portafolio, desarrollador web, HTML, CSS, proyectos">
+    <meta name="author" content="Jaime">
+    <title>Portafolio | Jaime Villacampa</title>
+
+    <!-- Vinculación con CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Jaime Villacampa</h1>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#hero">Inicio</a></li>
+                    <li><a href="#sobre-mi">Sobre mí</a></li>
+                    <li><a href="#portafolio">Portafolio</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h2>Desarrollador Web Frontend</h2>
+            <p>Creando experiencias digitales modernas y funcionales.</p>
+            <a href="#portafolio" class="btn">Ver proyectos</a>
+        </div>
+    </section>
+
+    <!-- Main -->
+    <main>
+
+        <!-- Sobre mí -->
+        <section id="sobre-mi" class="sobre-mi container">
+            <h2>Sobre mí</h2>
+            <p>
+                Soy un desarrollador web apasionado por el diseño y la programación.
+                Me especializo en HTML y CSS, creando interfaces modernas y
+                accesibles.
+            </p>
+        </section>
+
+        <!-- Portafolio. Los proyectos que pongo son inventados evidentemente. -->
+        <section id="portafolio" class="portafolio container">
+            <h2>Mis Proyectos</h2>
+
+            <div class="grid-proyectos">
+
+                <article class="proyecto">
+                    <img src="https://via.placeholder.com/400x250" alt="Proyecto Tienda Online">
+                    <h3>Tienda Online</h3>
+                    <p>Diseño de ecommerce moderno utilizando HTML y CSS Grid.</p>
+                </article>
+
+                <article class="proyecto">
+                    <img src="https://via.placeholder.com/400x250" alt="Proyecto Blog Personal">
+                    <h3>Blog Personal</h3>
+                    <p>Maquetación de blog adaptable a dispositivos móviles.</p>
+                </article>
+
+                <article class="proyecto">
+                    <img src="https://via.placeholder.com/400x250" alt="Proyecto Landing Page">
+                    <h3>Landing Page</h3>
+                    <p>Landing page optimizada para conversión.</p>
+                </article>
+
+                <article class="proyecto">
+                    <img src="https://via.placeholder.com/400x250" alt="Proyecto Dashboard">
+                    <h3>Dashboard UI</h3>
+                    <p>Interfaz administrativa utilizando CSS Flexbox.</p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Contacto -->
+        <section id="contacto" class="contacto container">
+            <h2>Contacto</h2>
+
+            <form class="formulario">
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                </div>
+
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2026 Jaime Villacampa. Todos los derechos reservados.</p>
+        <p>
+            <a href="https://www.linkedin.com/in/jaime-villacampa-casao-438025273/">LinkedIn</a> |
+            <a href="https://github.com/JaimeteVC547">GitHub</a> |
+            <a href="#">Twitter</a>
+        </p>
+    </footer>
+
+</body>
+</html>
